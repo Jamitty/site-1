@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta name="author" content="Robles, Juan P." />
+        <meta name="description" content="Breves noticias e historias interesantes." />
+        <link href="https://fonts.googleapis.com/css?family=Domine|Roboto+Condensed&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/style.css" />
+        <title>Algunas noticias interesantes (o no tanto)</title>
+    </head>
+    <body>
+        <nav id="salto">
+            <ul>
+                <li>
+                    <a href="#main">SALTAR AL CONTENIDO</a>
+                </li><li>
+                    <a href="#menu">SALTAR AL MENÚ</a>
+                </li>
+            </ul>
+        </nav>
+
+        <header>
+            <h1>ALGUNAS NOTICIAS INTERESANTES</h1>
+        </header>
+
+        <nav id="open-menu">
+            <a href="#menu"><i class="fas fa-bars"></i></a>
+        </nav>
+
+        <nav id="menu" tabindex="0">
+            <ul>
+                <li><a href="../index.html" tabindex="0">GAVIOTA 1, TORTUGA BEBÉ 0</a></li>
+                <li><a href="piton.html" tabindex="0">PITÓN VIAJA GRATIS</a></li>
+                <li><a href="polluelos.html" tabindex="0">POLLUELOS</a></li>
+                <li>
+                    <form action="labo2.php" method="GET" id="form-1">
+                        <input type="search" name="search" id="search-input" placeholder="Buscar" tabindex="0" />
+                    </form>
+                </li>
+            </ul>
+        </nav>
+
+        <main id="main">
+            <section>
+                <article>
+                    <h2 id="title">
+                        Descubre al llegar a casa que ha volado desde Australia con una pitón en uno de sus zapatos
+                    </h2>
+
+                    <figure>
+                        <img src="../img/piton.jpg" alt="Pitón en un zapato." />
+                        <figcaption>Pitón en un zapato.</figcaption>
+                    </figure>
+
+                    <p>
+                        Ocurrió el pasado jueves, cuando una mujer escocesa viajó con un extraño compañero en el equipaje durante algo más de 14.000 kilómetros de vuelo hasta aterrizar en
+                        <b>Glasgow</b>. Cuando llegó a su casa descubrió que la serpiente había volado en uno de los zapatos que guardaba en la maleta.
+                    </p>
+
+                    <p>
+                        Al parecer, <b>Moira Boxall</b> ha explicado que la pitón incluso había comenzado a despojarse de su piel durante el largo viaje. Cuando advirtió su presencia llamó a la
+                        organización de protección de animales <b>Scott SPCA</b>, quienes se llevaron a la serpiente. Como explicó el oficial de rescate de animales <b>Taylor Johnstone</b> a CNN:
+                    </p>
+                    <p>
+                        <i>
+                            "Respondí a la llamada de una mujer que acababa de regresar de unas vacaciones en Australia y había encontrado una pequeña serpiente pitón dentro de su zapato en la maleta.
+                            Cuando llegué, la serpiente ya había sido atrapada por la persona que llamaba, así que lo único que hice fue sacar a la serpiente de la propiedad de manera segura. Al
+                            examinarla, se encontró que era un pitón no es venenosa."
+                        </i>
+                    </p>
+
+                    <p>
+                        Por cierto, esta no es la primera vez que una serpiente se salta la seguridad y se abre paso en un avión. En 2016, un pasajero filmó el momento en que un ejemplar colgaba en la
+                        cabina durante un vuelo de Aeroméxico desde Torreón a la Ciudad de México, y en 2012, un vuelo de Egyptair se vio obligado a realizar un aterrizaje de emergencia después de que
+                        una serpiente mordiera a un hombre.
+                    </p>
+                </article>
+            </section>
+        </main><aside>
+            <h3>¡Únete al grupo de <br />Laboratorio I en Facebook!</h3>
+            <a href="https://www.facebook.com/groups/LaboratorioI.Facet" target="_blank"><img src="../img/fb.png" alt="Logo de facebook"/></a>
+
+            <form action="labo2.php" method="GET" id="form-2">
+                <fieldset>
+                    <p>¿Qué tipo de noticias te gustaría ver más seguido?</p>
+                    <label for="tec-input"> <input type="radio" name="encuesta" id="tec-input" value="Tecnología" /> Tecnología </label>
+
+                    <label for="nat-input"> <input type="radio" name="encuesta" id="nat-input" value="Naturaleza" /> Naturaleza </label>
+
+                    <label for="dep-input"> <input type="radio" name="encuesta" id="dep-input" value="Deportes" /> Deportes </label>
+
+                    <label for="hist-input"> <input type="radio" name="encuesta" id="hist-input" value="Historias" /> Historias </label>
+
+                    <input type="submit" value="Enviar" />
+                </fieldset>
+            </form>
+
+            <form action="labo2.php" method="GET" id="form-3">
+                <fieldset>
+                    <p>¿De dónde quieres ver noticias más seguido?</p>
+
+                    <label for="arg-input"> <input type="checkbox" name="arg" id="arg-input" value="Argentina" /> Argentina </label>
+                    <label for="hol-input"> <input type="checkbox" name="hol" id="hol-input" value="Holanda" /> Holanda </label>
+
+                    <label for="fra-input"> <input type="checkbox" name="fra" id="fra-input" value="Francia" /> Francia </label>
+
+                    <label for="ale-input"> <input type="checkbox" name="ale" id="ale-input" value="Alemania" /> Alemania </label>
+
+                    <label for="usa-input"> <input type="checkbox" name="usa" id="usa-input" value="Estados Unidos" /> Estados Unidos </label>
+
+                    <input type="submit" value="Enviar" />
+                </fieldset>
+            </form>
+
+            <form action="labo2.php" method="GET" id="form-4">
+                <fieldset>
+                    <legend>Donaciones</legend>
+                    <p>Elige el método por el cual quieres donar a esta hermosa página</p>
+
+                    <label for="donar-input" method="POST">
+                        Método:
+                        <select name="donar-metodo" id="donar-input">
+                            <option value="Rapipago">Rapipago</option>
+                            <option value="PagoFacil">PagoFacil</option>
+                            <option value="Tarjeta">Tarjeta de crédito</option>
+                            <option value="PayPal">PayPal</option>
+                            <option value="Bitcoin">Bitcoin</option>
+                        </select>
+                    </label>
+
+                    <input type="submit" value="Continuar" />
+                </fieldset>
+            </form>
+        </aside>
+
+        <footer></footer>
+    </body>
+</html>

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Robles, Juan P.">
+    <meta name="description" content="Breves noticias e historias interesantes.">
+    <link href="https://fonts.googleapis.com/css?family=Domine|Roboto+Condensed&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Algunas noticias interesantes (o no tanto)</title>
+</head>
+<body>
+    <nav id="salto">
+        <ul>
+                <li>
+                    <a href="#main">SALTAR AL CONTENIDO</a>
+                </li><li>
+                    <a href="#menu">SALTAR AL MENÚ</a>
+                </li>
+            </ul>
+    </nav>
+
+        <header>
+            <h1>ALGUNAS NOTICIAS INTERESANTES</h1>
+        </header>
+
+        <nav id="open-menu">
+            <a href="#menu"><i class="fas fa-bars"></i></a>
+        </nav>
+
+        <nav id="menu" tabindex="0">
+            <ul>
+                <li><a href="../index.html" tabindex="0">GAVIOTA 1, TORTUGA BEBÉ 0</a></li>
+                <li><a href="piton.html" tabindex="0">PITÓN VIAJA GRATIS</a></li>
+                <li><a href="polluelos.html" tabindex="0">POLLUELOS</a></li>
+                <li>
+                    <form action="labo2.php" method="GET" id="form-1">
+                        <input type="search" name="search" id="search-input" placeholder="Buscar" tabindex="0"/>
+                    </form>
+                </li>
+            </ul>
+    </nav>
+
+    <main id="main">
+        <section>
+            <article>
+                <h2 id="title">
+                    Estos tres polluelos no sabían volar y solo tenían una posibilidad para sobrevivir: saltar desde un 
+                    acantilado de 100 metros de altura
+                </h2>
+
+                <figure>
+                    <img src="../img/polluelos.gif" alt="Polluelo saltando del acantilado">
+                    <figcaption>Polluelo saltando del acantilado.</figcaption>
+                </figure>
+
+                <p>
+                    <a href="https://www.youtube.com/watch?v=H1S6UCX4RAA" target="_blank">La secuencia</a> es escalofriante. Para proteger a sus crías de los depredadores, una familia de gansos 
+                    árticos ha anidado en lo alto de un saliente de un acantilado de más de 100 metros de altura. Sin 
+                    embargo, el cambio de estación temprano los obliga a emigrar cuando los polluelos todavía no saben 
+                    volar. La única opción viable es saltar.
+                </p>
+
+                <p>
+                    Exhaustos y sin comida, estos gansos jóvenes deben sobrevivir a una terrible caída. Apenas un día 
+                    después de la eclosión, los polluelos necesitan dejar el nido para alimentarse de pasto porque sus 
+                    padres no pueden alimentarlos.
+                </p>
+
+                <p>
+                    La secuencia nos muestra a los tres polluelos frente al abismo y el posterior salto, y aunque todo 
+                    resulta tremendamente aterrador, son tan ligeros que no suelen morir al golpear el suelo, como explica 
+                    a <b lang="en">National Geographic</b> el profesor <b>David Cabot</b> de la Universidad de Cork en Irlanda, primero en filmar 
+                    este fenómeno increíble en 1985:
+                </p>
+
+                <p>
+                    <i>
+                    "Son ligeros y esponjosos, y a menudo parecen rebotar en las rocas cuando caen. Sólo unos pocos mueren por 
+                    quedar atrapados en grietas, barrancos o golpes de roca, en una roca afilada."
+                    </i>
+                </p>
+
+                <p>
+                    En realidad, el verdadero peligro de estas aves son principalmente los zorros árticos, aunque también las 
+                    gaviotas, que esperan a los pichones en su ruta desde el fondo del acantilado hasta la orilla del agua. 
+                    Los zorros <i>“se apresurarán a capturar la mayor cantidad de pollitos posible para guardarlos para más 
+                    adelante”</i>, zanja Cabot.
+                </p>
+            </article>
+        </section>
+    </main><aside>
+
+        <h3>¡Únete al grupo de </br>Laboratorio I en Facebook!</h3>
+        <a href="https://www.facebook.com/groups/LaboratorioI.Facet" target="_blank"><img src="../img/fb.png" alt="Logo de facebook"></a>
+
+        <form action="labo2.php" method="GET" id="form-2">
+            <fieldset>
+                <p>¿Qué tipo de noticias te gustaría ver más seguido?</p>
+                <label for="tec-input">
+                    <input type="radio" name="encuesta" id="tec-input" value="Tecnología"> Tecnología
+                </label>
+        
+                <label for="nat-input">
+                    <input type="radio" name="encuesta" id="nat-input" value="Naturaleza"> Naturaleza
+                </label>
+        
+                <label for="dep-input">
+                    <input type="radio" name="encuesta" id="dep-input" value="Deportes"> Deportes
+                </label>
+        
+                <label for="hist-input">
+                    <input type="radio" name="encuesta" id="hist-input" value="Historias"> Historias
+                </label>
+        
+                <input type="submit" value="Enviar">
+            </fieldset>
+        </form>
+        
+        <form action="labo2.php" method="GET" id="form-3">
+            <fieldset>
+                <p>¿De dónde quieres ver noticias más seguido?</p>
+        
+                <label for="arg-input">
+                    <input type="checkbox" name="arg" id="arg-input" value="Argentina"> Argentina
+                </label>
+                <label for="hol-input">
+                    <input type="checkbox" name="hol" id="hol-input" value="Holanda"> Holanda
+                </label>
+        
+                <label for="fra-input">
+                    <input type="checkbox" name="fra" id="fra-input" value="Francia"> Francia
+                </label>
+        
+                <label for="ale-input">
+                    <input type="checkbox" name="ale" id="ale-input" value="Alemania"> Alemania
+                </label>
+        
+                <label for="usa-input">
+                    <input type="checkbox" name="usa" id="usa-input" value="Estados Unidos"> Estados Unidos
+                </label>
+        
+                <input type="submit" value="Enviar">
+            </fieldset>
+        </form>
+        
+        <form action="labo2.php" method="GET" id="form-4">
+            <fieldset>
+                <legend>Donaciones</legend>
+                <p>Elige el método por el cual quieres donar a esta hermosa página</p>
+        
+                <label for="donar-input" method="POST">
+                    Método: <select name="donar-metodo" id="donar-input">
+                        <option value="Rapipago">Rapipago</option>
+                        <option value="PagoFacil">PagoFacil</option>
+                        <option value="Tarjeta">Tarjeta de crédito</option>
+                        <option value="PayPal">PayPal</option>
+                        <option value="Bitcoin">Bitcoin</option>
+                    </select>
+                </label>
+        
+                <input type="submit" value="Continuar">
+            </fieldset>
+        </form>
+
+    </aside>
+
+    <footer></footer>
+</body>
+</html>
