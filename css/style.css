@@ -109,13 +109,22 @@ header h1 {
   -moz-transition: color 0.3s ease;
   -o-transition: color 0.3s ease;
 }
-#social-menu a#social-fb:hover {
+#social-menu #social-fb:hover {
   color: #0071bc;
 }
-#social-menu a#social-tw:hover {
+#social-menu #social-fb:focus {
+  color: #0071bc;
+}
+#social-menu #social-tw:hover {
   color: #00acee;
 }
-#social-menu a#social-in:hover {
+#social-menu #social-tw:focus {
+  color: #00acee;
+}
+#social-menu #social-in:hover {
+  color: #e1306c;
+}
+#social-menu #social-in:focus {
   color: #e1306c;
 }
 #social-menu i {
@@ -187,6 +196,9 @@ aside form input[type=submit] {
   -o-transition: background-color 0.5s ease;
 }
 aside form input[type=submit]:hover {
+  background-color: black;
+}
+aside form input[type=submit]:focus {
   background-color: black;
 }
 
