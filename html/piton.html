@@ -19,7 +19,7 @@
                 <li>
                     <a href="#main">SALTAR AL CONTENIDO</a>
                 </li><li>
-                    <a href="#menu">SALTAR AL MENÚ</a>
+                    <a href="#first">SALTAR AL MENÚ</a>
                 </li>
             </ul>
         </nav>
@@ -31,18 +31,18 @@
 
         <!-- #OPEN-MENU -->
         <nav id="abrir-menu">
-            <a href="#menu"><i class="fas fa-bars"></i></a>
+            <a class="btn"><i class="fas fa-bars"></i></a>
         </nav>
 
         <!-- #MENU -->
-        <nav id="menu" tabindex="0">
+        <nav id="menu">
             <ul>
-                <li><a href="../index.html" tabindex="0">GAVIOTA 1, TORTUGA BEBÉ 0</a></li>
-                <li><a href="piton.html" tabindex="0">PITÓN VIAJA GRATIS</a></li>
-                <li><a href="polluelos.html" tabindex="0">POLLUELOS</a></li>
+                <li><a href="../index.html" id="first">GAVIOTA 1, TORTUGA BEBÉ 0</a></li>
+                <li><a href="#">PITÓN VIAJA GRATIS</a></li>
+                <li><a href="polluelos.html">POLLUELOS</a></li>
                 <li>
                     <form action="labo2.php" method="GET" id="form-1">
-                        <input type="search" name="search" id="search-input" placeholder="Buscar" tabindex="0" />
+                        <input type="search" name="search" id="search-input" placeholder="Buscar"/>
                     </form>
                 </li>
             </ul>
@@ -158,5 +158,6 @@
         </aside>
 
         <footer></footer>
+        <script src="../js/abrirMenu.js" type="text/javascript"></script>
     </body>
 </html>
